@@ -10,7 +10,7 @@
 #'   \item{mean}{Mean global temperature}
 #' }
 #'
-#' @source \url{https://za.investing.com/}
+#' @source \url{https://datahub.io/core/global-temp}
 "yearly"
 
 
@@ -26,5 +26,5 @@
 #'   \item{mean}{Mean global temperature}
 #' }
 #'
-#' @source \url{https://za.investing.com/}
+#' @source \url{https://datahub.io/core/global-temp}
 "monthly"

@@ -13,7 +13,7 @@ A data frame with 3288 observations of 3 variables
 }
 }
 \source{
-\url{https://za.investing.com/}
+\url{https://datahub.io/core/global-temp}
 }
 \usage{
 monthly
