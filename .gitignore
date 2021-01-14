@@ -1,6 +1,10 @@
 # Mac files
 .DS*
 
+# Misc .R files
+.Rproj
+.Rbuildignore
+
 # History files
 .Rhistory
 .Rapp.history
