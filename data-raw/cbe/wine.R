@@ -11,4 +11,5 @@ dd <- dd %>%
   select(-time, year, wine_cons = total) %>% 
   select(year, wine_cons)
 wine <- dd
+wine$year <- as.integer(wine$year)
 save(wine, file = "data/wine.rda")
