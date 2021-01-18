@@ -1,6 +1,6 @@
 #' TSA Throughput
 #'
-#' The throughput at TSA checkpoints at various airports and times of day for the first quarter of 2018.
+#' The throughput at TSA checkpoints at various airports and times of day for the first quarter of 2018. 
 #'  
 #' The TSA releases this data in pdf format by week, which has been put into csv by Kevin Sullivan. See source for details.
 #'  
