@@ -1,5 +1,6 @@
 # Mac files
 .DS*
+*.swp
 
 # Misc .R files
 .Rproj
