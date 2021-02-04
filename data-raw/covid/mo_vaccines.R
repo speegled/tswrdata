@@ -1,4 +1,4 @@
-dd <- read.csv("data-raw/covid/mo_vaccinations.csv", sep = "\t", fileEncoding="UTF-16LE")
+dd <- read.csv("data-raw/covid/mo_vaccines.csv", sep = "\t", fileEncoding="UTF-16LE")
 library(tidyverse)
 
 dd <- dd %>% janitor::clean_names()
@@ -10,7 +10,8 @@ dd$measure
 dd <- select(dd, -measure)
 dd
 ggplot(dd, aes(x = date, y = doses)) + 
-  geom_smooth(span = .2)
+  geom_smooth(span = .2) + 
+  geom_point()
 print(ts(rev(dd$doses), start = c(12, 1), frequency = 7), calendar = T)
 
 vaccines <- dd
