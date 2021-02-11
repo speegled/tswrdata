@@ -30,4 +30,5 @@
 #' }
 #'
 #' @source \url{https://www.noaa.gov/} 
+#' @source \url{https://www.ncdc.noaa.gov/cdo-web/datatools/findstation}
 "stltemp"

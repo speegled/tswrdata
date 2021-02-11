@@ -34,6 +34,8 @@ A data frame with 103660 observations of 23 variables
 }
 \source{
 \url{https://www.noaa.gov/}
+
+\url{https://www.ncdc.noaa.gov/cdo-web/datatools/findstation}
 }
 \usage{
 stltemp
