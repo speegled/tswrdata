@@ -1,4 +1,4 @@
-dd <- read.csv("data-raw/covid/mo_vaccines.csv", sep = "\t", fileEncoding="UTF-16LE")
+dd <- read.csv("data-raw/covid/vaccines_2202021.csv", sep = "\t", fileEncoding="UTF-16LE")
 library(tidyverse)
 
 dd <- dd %>% janitor::clean_names()
@@ -13,6 +13,6 @@ ggplot(dd, aes(x = date, y = doses)) +
   geom_smooth(span = .2) + 
   geom_point()
 print(ts(rev(dd$doses), start = c(12, 1), frequency = 7), calendar = T)
-
+forecast::findfrequency(dd$doses)
 vaccines <- dd
 save(vaccines, file = "data/vaccines.rda")
