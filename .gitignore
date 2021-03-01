@@ -45,3 +45,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# data files
+data-raw/*/*.xls
+data-raw/*/*.csv
