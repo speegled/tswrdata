@@ -7,7 +7,7 @@
  
 Monthly gas production in Canada.}
 \format{
-A time series of length 542
+A vector of length 542
 }
 \source{
 expsmooth package

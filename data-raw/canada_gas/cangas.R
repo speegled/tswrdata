@@ -1,5 +1,5 @@
 library(expsmooth)
 data("cangas")
-canada_gas <- cangas 
+canada_gas <- as.vector(cangas) 
 save(canada_gas, file = "data/canada_gas.rda")
-
+str(canada_gas)
