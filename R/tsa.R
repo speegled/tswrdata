@@ -1,13 +1,13 @@
 #' TSA Throughput
 #'
-#' The throughput at TSA checkpoints at various airports and times of day for the first quarter of 2018. 
+#' The throughput at TSA checkpoints at various airports and times of day for the first quarter of 2020. 
 #'  
 #' The TSA releases this data in pdf format by week, which has been put into csv by Kevin Sullivan. See source for details.
 #'  
 #'
 #' @format A data frame with 4769 observations of 2 variables
 #' \describe{
-#'   \item{date}{Date from 2018-01-01 to 2018-03-31}
+#'   \item{date}{Date from 2020-01-01 to 2020-03-31}
 #'   \item{hour}{Number from 0-23, representing which hour is being measured.}
 #'   \item{iata_code}{Airport code.}
 #'   \item{checkpoint}{Checkpoint within airport.}
