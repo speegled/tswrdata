@@ -12,3 +12,6 @@
 
 #' @rdname sim_data
 "sim_data_2"
+
+#' @rdname sim_data
+"sim_data_3"
