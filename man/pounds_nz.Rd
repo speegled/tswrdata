@@ -17,6 +17,6 @@ Introductory Time Series with R, by Cowpertwait and Metcalfe
 pounds_nz
 }
 \description{
-Quarterly mean exchange rate between pounds and NZD.
+Quarterly mean exchange rate between pounds and NZD. January 1991-March 2000
 }
 \keyword{datasets}
