@@ -6,6 +6,7 @@
 \alias{sim_data_1}
 \alias{sim_data_2}
 \alias{sim_data_3}
+\alias{sim_data_4}
 \title{Simulated time series data}
 \format{
 Vectors with varying lengths
@@ -13,6 +14,8 @@ Vectors with varying lengths
 An object of class \code{ts} of length 300.
 
 An object of class \code{ts} of length 300.
+
+An object of class \code{ts} of length 2001.
 }
 \source{
 Constructed by Darrin Speegle
@@ -23,6 +26,8 @@ sim_data_1
 sim_data_2
 
 sim_data_3
+
+sim_data_4
 }
 \description{
 The data sim_data_*, where * is an integer, are simulated time series of various types.

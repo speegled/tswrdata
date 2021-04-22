@@ -3,5 +3,5 @@ mod <- arima(z, order = c(1, 0, 2))
 acf(resid(mod))
 
 sim_data_3 <- z
-save(sim_data_3, file = "data/sim_data_3")
+save(sim_data_3, file = "data/sim_data_3.rda")
   
